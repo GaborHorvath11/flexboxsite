@@ -1,0 +1,93 @@
+
+
+
+body {
+  background-image: url(image/oldpaper.jpg);
+}
+
+p, li {
+  margin-bottom: 0.8em;
+  line-height: 1.4em;
+  padding: 1px 5px;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1280px;
+
+    margin: 2% 2% 2% 2%;
+  }
+
+    .header {
+
+    }
+      .header img {
+        border-radius: 3px;
+      }
+
+    .navbar {
+      flex: 1;
+      background-color: #FAB239;
+      margin-right: 3px;
+      margin-bottom: 3px;
+      min-height: 250px;
+      border-radius: 3px;
+    }
+      .navbar ul {}
+
+        .navbar ul li {
+          list-style: none;
+        }
+
+          .navbar ul li a {
+            text-decoration: none;
+          }
+
+            .navbar ul li a:link {
+              color: black;
+            }
+
+            .navbar ul li a:visited {
+              color: black;
+            }
+
+            .navbar ul li a:hover {
+              color: green;
+            }
+
+            .navbar ul li a:active {
+              position: relative;
+              top: 1px;
+            }
+
+    .main-page {
+      flex: 5;
+      background-color: #F9D597;
+      margin-bottom: 3px;
+      margin-left: 3px;
+      min-height: 250px;
+      border-radius: 3px;
+
+    }
+      .main-page .form {
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+
+    .footer {
+      flex: 1 100%;
+      background-color: #B6ABC9;
+      margin-top: 6px;
+      border-radius: 3px;
+      text-align: center;
+    }
